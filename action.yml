@@ -1,0 +1,6 @@
+# action.yml
+name: 'Hexlet SICP exercises checket'
+description: 'Runs tests for SICP exercises. Uses structure from boilerplate https://github.com/hexlet-boilerplates/sicp-racket'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
